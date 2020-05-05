@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  GoogleMapsDemo
 //
-//  Created by syamala on 13/04/18.
-//  Copyright © 2018 syamala. All rights reserved.
 //
 
 import UIKit
