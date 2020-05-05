@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  GoogleMapsDemo
 //
-//  Created by syamala on 13/04/18.
-//  Copyright © 2018 syamala. All rights reserved.
+//  Created by Pavan Kalyan Jonnadula on 13/04/18.
+//  Copyright © 2018 Pavan Kalyan Jonnadula. All rights reserved.
 //
 
 import UIKit
