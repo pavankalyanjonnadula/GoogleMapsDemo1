@@ -335,12 +335,12 @@ class ViewController: UIViewController,CLLocationManagerDelegate,URLSessionDeleg
     func urlSession(_ session: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
         completionHandler(Foundation.URLSession.AuthChallengeDisposition.useCredential, URLCredential(trust:challenge.protectionSpace.serverTrust!))
     }
-    func circleButton(button : [AnyObject])
+    func circleButton(button : [UIButton])
     {
-        for item in button{
-            item.layer.cornerRadius = 0.5 * item.bounds.size.width
-            item.layer.borderColor = UIColor.black.cgColor
-            item.layer.borderWidth = 2.0
+        for item1 in button{
+            item1.layer.cornerRadius = 0.5 * item1.bounds.size.width
+            item1.layer.borderColor = UIColor.black.cgColor
+            item1.layer.borderWidth = 2.0
         }
         
     }
